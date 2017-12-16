@@ -1,0 +1,46 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.container-submit {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+}
+
+.error-text {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  color: red;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.label-header {
+  padding-right: 1.5rem;
+}
+
+.hrz-divider {
+  height: .25rem;
+}
+
+textarea,
+input {
+  width: 100%;
+}
+
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}

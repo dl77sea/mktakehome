@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MK Takehome 00</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script defer src="js/init.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1>Sign In</h1>
+
+      <form id="signin">
+        <div class="form-field">
+          <label class="label-header" for="username">Username</label>
+          <input type="text" name="username">
+        </div>
+
+        <div class="form-field">
+          <label class="label-header" for="password">Password</label>
+          <input type="text" name="password">
+        </div>
+        <br>
+        <div class="container-submit">
+          <input class="submit" type="submit">
+          <p id="error-text" align="center" class="error-text">Incorrect username or password <br> Use: "username1" and "password1"</p>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
